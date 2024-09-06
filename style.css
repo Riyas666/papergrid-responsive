@@ -1,0 +1,69 @@
+.navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .heading-text:hover{
+        cursor: pointer;
+        background-color: rgb(67, 66, 66);
+    }
+    .navbar{
+        display: flex;
+    }
+    @media screen and (min-width:992px){
+        .nav-brand{
+            margin-left: 50px;
+        }
+    }
+    @media screen and (max-width:992px){
+        .nav-brand{
+           margin: auto;
+        }
+    }
+    
+    @media screen and (max-width:1200px) {
+        .col-6 img{
+            width: 300px;
+        }
+    }
+    @media screen and (max-width:768px) {
+        .col-6 img{
+            width: 250px;
+        }
+    }
+    @media screen and (max-width:576px) {
+        .col-6 img{
+            width: 200px;
+        }
+    }
+    #insta-logo{
+        filter: invert(1);
+    }
+    .footer-text p:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    br{
+        margin-bottom: 15px;
+    }
+    #bottom-list{
+        list-style: none;
+        font-size: small;
+        margin: auto;
+        color: grey;
+        text-align: center;
+        
+    }
+    @media screen and (min-width:890px){
+        #bottom-list{
+            display: flex;
+        }
+    }
+    @media screen and (min-width:576px){
+        #founder{
+            width: 315px;
+        }
+    }
+    @media screen and (max-width:576px){
+        #founder{
+            width: 315px;
+        }
+    }
